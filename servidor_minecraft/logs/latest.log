@@ -1,17 +1,17 @@
-[02:10:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:10:11] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[02:10:12] [Worker-Main-1/INFO]: Loaded 7 recipes
-[02:10:14] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[02:10:14] [Server thread/INFO]: Loading properties
-[02:10:14] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[02:10:14] [Server thread/INFO]: Debug logging is disabled
-[02:10:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:10:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:10:14] [Server thread/INFO]: Default game type: SURVIVAL
-[02:10:14] [Server thread/INFO]: Generating keypair
-[02:10:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:10:15] [Server thread/INFO]: Using epoll channel type
-[02:10:16] [Server thread/ERROR]: Could not load 'plugins/playercarry.jar' in folder 'plugins'
+[02:23:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:23:37] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[02:23:38] [Worker-Main-1/INFO]: Loaded 7 recipes
+[02:23:41] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:23:41] [Server thread/INFO]: Loading properties
+[02:23:41] [Server thread/INFO]: This server is running Paper version git-Paper-794 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[02:23:41] [Server thread/INFO]: Debug logging is disabled
+[02:23:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:23:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:23:42] [Server thread/INFO]: Default game type: SURVIVAL
+[02:23:42] [Server thread/INFO]: Generating keypair
+[02:23:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:23:42] [Server thread/INFO]: Using epoll channel type
+[02:23:44] [Server thread/ERROR]: Could not load 'plugins/playercarry.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.17
 	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:361) ~[patched_1.16.5.jar:git-Paper-794]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[patched_1.16.5.jar:git-Paper-794]
@@ -22,34 +22,34 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.17
 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
 	at java.lang.Thread.run(Thread.java:829) [?:?]
-[02:10:16] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.4
-[02:10:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
-[02:10:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7142b2bd]
-[02:10:17] [Server thread/INFO]: [Permadeath] Loading Permadeath v1.3
-[02:10:17] [Server thread/INFO]: [Sit] Loading Sit v1.7.1
-[02:10:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:10:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
-[02:10:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:10:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:10:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[02:10:19] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
-[02:10:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:10:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:10:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:10:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:10:19] [Server thread/INFO]: Preparing level "world"
-[02:10:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:10:20] [Server thread/INFO]: Preparing spawn area: 0%
-[02:10:20] [Server thread/INFO]: Preparing spawn area: 0%
-[02:10:20] [Server thread/INFO]: Time elapsed: 700 ms
-[02:10:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:10:21] [Server thread/INFO]: Time elapsed: 229 ms
-[02:10:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:10:21] [Server thread/INFO]: Time elapsed: 414 ms
-[02:10:21] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.4
-[02:10:21] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
-[02:10:22] [Server thread/WARN]: [voicechat] Vanish plugin support is disabled
-[02:10:22] [Server thread/WARN]: [voicechat] Failed to load vanish compatibility
+[02:23:45] [Server thread/INFO]: [voicechat] Loading voicechat v2.6.4
+[02:23:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[02:23:48] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@34efd6c9]
+[02:23:48] [Server thread/INFO]: [Permadeath] Loading Permadeath v1.3
+[02:23:48] [Server thread/INFO]: [Sit] Loading Sit v1.7.1
+[02:23:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:23:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[02:23:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:23:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:23:50] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[02:23:52] [Server thread/INFO]: [Permadeath] Enabling Permadeath v1.3
+[02:23:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:23:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:23:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:23:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:23:52] [Server thread/INFO]: Preparing level "world"
+[02:23:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:23:54] [Server thread/INFO]: Preparing spawn area: 0%
+[02:23:54] [Server thread/INFO]: Preparing spawn area: 0%
+[02:23:54] [Server thread/INFO]: Time elapsed: 742 ms
+[02:23:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:23:54] [Server thread/INFO]: Time elapsed: 151 ms
+[02:23:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:23:54] [Server thread/INFO]: Time elapsed: 102 ms
+[02:23:54] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.4
+[02:23:54] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.16.5-R0.1
+[02:23:55] [Server thread/WARN]: [voicechat] Vanish plugin support is disabled
+[02:23:55] [Server thread/WARN]: [voicechat] Failed to load vanish compatibility
 de.maxhenkel.voicechat.compatibility.CompatibilityReflectionException: Could not find any of the following classes: org.bukkit.event.player.PlayerHideEntityEvent
 	at de.maxhenkel.voicechat.compatibility.ReflectionUtils.getClazz(ReflectionUtils.java:169) ~[?:?]
 	at de.maxhenkel.voicechat.compatibility.BaseCompatibility.init(BaseCompatibility.java:48) ~[?:?]
@@ -65,124 +65,50 @@ de.maxhenkel.voicechat.compatibility.CompatibilityReflectionException: Could not
 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-794]
 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-794]
 	at java.lang.Thread.run(Thread.java:829) [?:?]
-[02:10:22] [Server thread/INFO]: [voicechat] Compatibility version 20
-[02:10:22] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[02:10:22] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
-[02:10:22] [Server thread/INFO]: Running delayed init tasks
-[02:10:22] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
-[02:10:22] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
-[02:10:22] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
-[02:10:22] [Server thread/INFO]: ------------------------------------------
-[02:10:22] [Server thread/INFO]:              PERMADEATH
-[02:10:22] [Server thread/INFO]:      - Versión: 1.3
-[02:10:22] [Server thread/INFO]:      - Versión del Servidor: v1.16
-[02:10:22] [Server thread/INFO]: ------------------------------------------
-[02:10:22] [Server thread/INFO]:  >> INFORME DE ESTADO
-[02:10:22] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
-[02:10:22] [Server thread/INFO]:     > End: world_the_end
-[02:10:22] [Server thread/INFO]:     > Overworld: world
-[02:10:22] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
-[02:10:22] [Server thread/INFO]: > Software: PaperMC (Compatible)
-[02:10:22] [Server thread/INFO]: > Cambios:
-[02:10:22] [Server thread/INFO]: >   Días disponibles: 1-60
-[02:10:23] [Server thread/INFO]: [PermaDeath] > Se han registrado los cambios de Mobs pacíficos hostiles.
-[02:10:23] [Server thread/INFO]: [voicechat] Loading plugins
-[02:10:23] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[02:10:23] [Server thread/INFO]: [voicechat] Initializing plugins
-[02:10:23] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[02:10:23] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[02:10:23] [Server thread/INFO]: Done (9.157s)! For help, type "help"
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[02:10:23] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'customers-means.gl.at.ply.gg'
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.28
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
-[02:10:23] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[02:10:23] [Server thread/INFO]: Timings Reset
-[02:10:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 11264
-[02:10:25] [Craft Scheduler Thread - 3/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
-[02:10:48] [User Authenticator #1/INFO]: UUID of player SebastianFTW is c66297b9-edef-3414-a8c5-8efbe14fe792
-[02:10:49] [Server thread/INFO]: SebastianFTW se ha unido al servidor.
-[02:10:49] [Server thread/INFO]: SebastianFTW[/127.127.215.62:51953] logged in with entity id 169 at ([world_nether]-58.13623722963208, 51.33623129101419, -97.02381386907811)
-[02:10:49] [Server thread/INFO]: [voicechat] Received secret request of SebastianFTW (20)
-[02:10:49] [Server thread/INFO]: [voicechat] Sent secret to SebastianFTW
-[02:10:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player c66297b9-edef-3414-a8c5-8efbe14fe792
-[02:10:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player c66297b9-edef-3414-a8c5-8efbe14fe792
-[02:10:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SebastianFTW (c66297b9-edef-3414-a8c5-8efbe14fe792) successfully connected to voice chat
-[02:11:06] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
-[02:11:06] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
-[02:11:06] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
-[02:26:39] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:31:39] [Server thread/INFO]: SebastianFTW issued server command: /pdc dia
-[02:31:41] [Server thread/INFO]: SebastianFTW issued server command: /pdc diaa
-[02:31:42] [Server thread/INFO]: SebastianFTW issued server command: /pdc dias
-[02:34:08] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:37:25] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:37:48] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:37:55] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:37:59] [Server thread/INFO]: Set the weather to rain & thunder
-[02:37:59] [Server thread/INFO]: SebastianFTW ha muerto y ahora descanza en paz.
-[02:37:59] [Server thread/INFO]: Este es el comienzo del sufrimiento eterno de SebastianFTW. ¡HA SIDO PERMABANEADO!
-[02:37:59] [Server thread/INFO]: X: 1112 || Y: 65 || Z: -946
-[02:37:59] [Server thread/INFO]: SebastianFTW was slain by Ravager
-[02:38:04] [Server thread/INFO]: ¡Comienza el Death Train con duración de 5 horas!
-[02:38:21] [Server thread/INFO]: SebastianFTW issued server command: /gamemode survival
-[02:38:21] [Server thread/INFO]: [SebastianFTW: Set own game mode to Survival Mode]
-[02:38:30] [Server thread/INFO]: SebastianFTW issued server command: /gamemode spectator
-[02:38:30] [Server thread/INFO]: [SebastianFTW: Set own game mode to Spectator Mode]
-[02:38:41] [Server thread/INFO]: SebastianFTW issued server command: /gamemode survival
-[02:38:41] [Server thread/INFO]: [SebastianFTW: Set own game mode to Survival Mode]
-[02:38:54] [Server thread/INFO]: SebastianFTW issued server command: /gamemode creative
-[02:38:54] [Server thread/INFO]: [SebastianFTW: Set own game mode to Creative Mode]
-[02:39:40] [Server thread/INFO]: [Server] eyyy pero sebastiancito
-[02:39:47] [Async Chat Thread - #0/INFO]: <SebastianFTW> mano
-[02:39:55] [Async Chat Thread - #0/INFO]: <SebastianFTW> menos mal dejamos las
-[02:39:57] [Async Chat Thread - #0/INFO]: <SebastianFTW> 2
-[02:39:58] [Async Chat Thread - #0/INFO]: <SebastianFTW> 3
-[02:39:59] [Async Chat Thread - #0/INFO]: <SebastianFTW> vidas
-[02:40:02] [Async Chat Thread - #0/INFO]: <SebastianFTW> me queda una
-[02:40:07] [Async Chat Thread - #0/INFO]: <SebastianFTW> y tengo que terminar esta raid
-[02:41:07] [Server thread/INFO]: SebastianFTW issued server command: /gamemode survival
-[02:41:07] [Server thread/INFO]: [SebastianFTW: Set own game mode to Survival Mode]
-[02:41:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5438ms or 108 ticks behind
-[02:41:56] [Server thread/WARN]: SebastianFTW moved too quickly! -11.827203583631217,1.8338907390617862,15.576005585302028
-[02:42:27] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:42:50] [Server thread/INFO]: [INFO] La probabilidad del tótem se encuentra desactivada para el día: 29
-[02:56:22] [Server thread/INFO]: SebastianFTW lost connection: Disconnected
-[02:56:22] [Server thread/INFO]: SebastianFTW ha abandonado el servidor.
-[02:56:22] [Server thread/INFO]: [voicechat] Disconnecting client SebastianFTW
-[02:57:07] [Server thread/INFO]: Stopping the server
-[02:57:07] [Server thread/INFO]: Stopping server
-[02:57:07] [Server thread/INFO]: [Sit] Disabling Sit v1.7.1
-[02:57:07] [Server thread/INFO]: [Permadeath] Disabling Permadeath v1.3
-[02:57:07] [Server thread/INFO]: ------------------------------------------
-[02:57:07] [Server thread/INFO]:              PERMADEATH
-[02:57:07] [Server thread/INFO]:      - Desactivando el Plugin.
-[02:57:07] [Server thread/INFO]: ------------------------------------------
-[02:57:07] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.17+6544-56d0383
-[02:57:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:57:07] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.4
-[02:57:07] [Server thread/INFO]: Saving players
-[02:57:07] [Server thread/INFO]: Saving worlds
-[02:57:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:57:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:57:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:57:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:57:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:57:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:57:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:57:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:57:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:57:07] [Server thread/INFO]: Flushing Chunk IO
-[02:57:07] [Server thread/INFO]: Closing Thread Pool
-[02:57:07] [Server thread/INFO]: Closing Server
+[02:23:55] [Server thread/INFO]: [voicechat] Compatibility version 20
+[02:23:55] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[02:23:55] [Server thread/INFO]: [Sit] Enabling Sit v1.7.1
+[02:23:55] [Server thread/INFO]: Running delayed init tasks
+[02:23:55] [Server thread/INFO]: Permadeath ➤ No se ha encontrado una librería JDA, deberás instalar una en caso de querer utilizar un bot de Discord.
+[02:23:55] [Server thread/INFO]: Descarga aquí: https://www.spigotmc.org/resources/permadeath-%E2%98%A0%EF%B8%8F.112343/
+[02:23:55] [Server thread/INFO]: Si no puedes descargarlo allí, únete a este Discord y te daremos acceso al enlace: https://discord.gg/8evPbuxPke
+[02:23:56] [Server thread/INFO]: ------------------------------------------
+[02:23:56] [Server thread/INFO]:              PERMADEATH
+[02:23:56] [Server thread/INFO]:      - Versión: 1.3
+[02:23:56] [Server thread/INFO]:      - Versión del Servidor: v1.16
+[02:23:56] [Server thread/INFO]: ------------------------------------------
+[02:23:56] [Server thread/INFO]:  >> INFORME DE ESTADO
+[02:23:56] [Server thread/INFO]: > Estado de mundos: Overworld: world End: world_the_end
+[02:23:56] [Server thread/INFO]:     > End: world_the_end
+[02:23:56] [Server thread/INFO]:     > Overworld: world
+[02:23:56] [Server thread/INFO]: > Estado de Compatibilidad: Compatible
+[02:23:56] [Server thread/INFO]: > Software: PaperMC (Compatible)
+[02:23:56] [Server thread/INFO]: > Cambios:
+[02:23:56] [Server thread/INFO]: >   Días disponibles: 1-60
+[02:23:57] [Server thread/INFO]: [PermaDeath] > Se han registrado los cambios de Mobs pacíficos hostiles.
+[02:23:57] [Server thread/INFO]: [PermaDeath] > Se han registrado cambios especiales para PaperMC.
+[02:23:57] [Server thread/INFO]: [voicechat] Loading plugins
+[02:23:57] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[02:23:57] [Server thread/INFO]: [voicechat] Initializing plugins
+[02:23:57] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[02:23:57] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[02:23:57] [Server thread/INFO]: Done (16.706s)! For help, type "help"
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 11.0.28
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[02:23:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[02:23:57] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'customers-means.gl.at.ply.gg'
+[02:23:57] [Server thread/INFO]: Timings Reset
+[02:23:58] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 11264
+[02:24:03] [Craft Scheduler Thread - 3/INFO]: Permadeath ➤ Versión del plugin: Versión más reciente instalada.
